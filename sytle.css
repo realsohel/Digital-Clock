@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Clock font;
+    src: url(./images/digital-7/digital-7\ \(mono\).ttf);
+    }
+
+body{
+    background-color: #182628;
+}
+.contain{
+    /* border: 2px solid rgb(241, 199, 199) ; */
+    margin: 4px;
+    margin-top: 50px;
+    /* color: #3ec573; */
+    color: #57BA98;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: 3vw;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    display: flex;
+}
+
+
+#dateday{
+    margin: auto;
+    padding-top: 60px;
+    width: 50%;
+    justify-content: center;
+    color: #57BA98;
+    font-size: 5vw;
+    font-family: "Clock font";
+
+}
+.box{
+    /* padding: 80px; */
+    display: flex;
+    margin: auto;
+    padding-top: 10px;
+    width: 50%;
+    justify-content: center;
+    font-family: "Clock font";
+}
+
+.time{
+    /* color: #5CDB95; */
+    color: #3ec573;
+    margin-top: 40px;
+    display: flex;
+    font-size: 15vw;
+}
+
+
+#session{
+    font-size: 6vw;
+    margin-top: 100px;
+    padding-left: 20px ;
+}
+
+@media screen and (max-width: 950px){
+
+        
+    .time{
+        margin-top: 10px;
+        display: flex;
+        font-size: 10vw;
+    }
+
+        
+    #session{
+        font-size: 3vw;
+        /* margin-top: 60px; */
+        margin: auto;
+        padding-left: 10px ;
+    }
+
+    #dateday{
+        padding-top: 5px;
+
+    }
+
+    }
